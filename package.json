@@ -1,0 +1,30 @@
+{
+  "name": "ch-types",
+  "version": "1.0.0",
+  "description": "TypeScript interfaces for cryptic hunt",
+  "main": "index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+      "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACM-VIT/cryptic-hunt-types-2024.git"
+  },
+  "author": "Saubhagya Tandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACM-VIT/cryptic-hunt-types-2024/issues"
+  },
+  "homepage": "https://github.com/ACM-VIT/cryptic-hunt-types-2024#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
